@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: #333;
+    min-height: 100vh;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+body > h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+}
+
+h3{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.juego {
+    text-align: center;
+    margin: 2rem 2rem;
+    background: rgb(128,128,128);
+    background: radial-gradient(rgba(128,128,128,1), rgba(64,64,64,1)); 
+    border: .3rem solid black;
+    border-radius: 2.5rem;
+    padding: 2.5rem;
+    max-width: 100%;
+}
+
+img {
+    width: 8rem;
+}
+
+.elecciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 0 2rem;
+}
+
+.textoJuego {
+    padding: 1rem;
+}
+
+#textoJugador,
+#textoComputadora {
+    color: #fff;
+}
+
+.contenedorBtn{
+    margin: 2rem 0;
+}
+
+.btnEleccion {
+    cursor: pointer;
+}
+
+.btnEleccion:hover {
+    transform: scale(1.2);
+}
+
+.puntaje{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#btnReiniciar{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    display: none;
+}
+
+#ganador {
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: 0 0 0.3em #fff;
+    font-size: 3rem;
+}
+

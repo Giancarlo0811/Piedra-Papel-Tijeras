@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra-Papel-Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Piedra-Papel-Tijeras</h1>
+    <h3>El primero en llegar a 5 puntos gana</h3>
+    <div class="juego">
+
+        <div class="elecciones">
+            <div class="contenedorBtn">
+                <img src="./rock.svg" alt="" class="btnEleccion" id="piedra">
+            </div>
+            <div class="contenedorBtn">
+                <img src="./paper.svg" alt="" class="btnEleccion" id="papel">
+            </div>
+            <div class="contenedorBtn">
+                <img src="./scissors.svg" alt="" class="btnEleccion" id="tijeras">
+            </div>
+        </div>
+
+        <h1 class="textoJuego" id="textoJugador">JUGADOR:</h1>
+        <h1 class="textoJuego" id="textoComputadora">COMPUTADORA:</h1>
+        <h1 class="textoJuego" id="textoResultado">RESULTADO:</h1>
+        
+        <button id="btnReiniciar">REINICIAR</button>
+
+        <div class="puntaje">
+            <p id="puntajeJugador">PUNTAJE JUGADOR: 0</p>
+            <p id="puntajeComputadora">PUNTAJE COMPUTADORA: 0</p>
+            <br>
+            <p id="ganador"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
